@@ -25,7 +25,7 @@ ensure_packages()
 def initialize_app():
     """Set up the app with proper configuration"""
     st.set_page_config(
-        page_title="PDF Insight AI",
+        page_title="Chatbot with PDF Reader",
         page_icon="📄",
         layout="centered",
         initial_sidebar_state="expanded"
@@ -189,7 +189,7 @@ def show_processing_sidebar():
 def main():
     initialize_app()
     
-    st.title("📄 PDF Insight AI")
+    st.title("📄 Chatbot with PDF Reader")
     st.caption("Extract knowledge from your documents using AI")
     
     # Document processing sidebar
