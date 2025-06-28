@@ -1,3 +1,4 @@
+
 import os
 import streamlit as st
 from pypdf import PdfReader
@@ -188,7 +189,7 @@ def show_processing_sidebar():
 # --- Main App ---
 def main():
     initialize_app()
-
+    
     st.title("📄 Chatbot with PDF Reader")
     st.caption("Extract knowledge from your documents using AI")
     
