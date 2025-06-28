@@ -74,7 +74,7 @@ def process_pdf_files(uploaded_files):
             st.session_state.processed = True
             
             status.update(label="✅ Processing complete!", state="complete")
-            st.balloons()
+            
             return True
             
         except Exception as e:
