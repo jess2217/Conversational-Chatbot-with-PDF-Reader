@@ -1,4 +1,5 @@
-Conversational Chatbot with PDF Reade
+Conversational Chatbot with PDF Reader
+
 📄 Multi-format support: Upload and query PDFs, Word docs, and Excel sheets 
 🤖 LLM Integration: Switch between Llama3, Gemma, or Mistral via Ollama/LangChain 
 🚀 FastAPI Backend: Robust API for document processing and embeddings  
